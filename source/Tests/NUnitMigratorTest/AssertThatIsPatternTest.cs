@@ -95,8 +95,6 @@ namespace NUnitMigrator.Test
             // Assert
             success.Should().BeTrue();
             output.Should().Be(expected);
-
-            Assert.That(output, Is.)
         }
     }
 }
