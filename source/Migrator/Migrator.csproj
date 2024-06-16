@@ -6,12 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <InternalsVisibleTo Include="NUnitMigratorTest" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Migrator\Migrator.csproj" />
-  </ItemGroup>
-
 </Project>

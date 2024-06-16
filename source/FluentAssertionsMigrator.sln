@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Impl", "Impl", "{AC86059F-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitMigratorTest", "Tests\NUnitMigratorTest\NUnitMigratorTest.csproj", "{66B8F882-30BC-452D-BE48-70BBB437C437}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrator", "Migrator\Migrator.csproj", "{05D26368-D8CB-4973-9DCD-99F104A48B54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{66B8F882-30BC-452D-BE48-70BBB437C437}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B8F882-30BC-452D-BE48-70BBB437C437}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B8F882-30BC-452D-BE48-70BBB437C437}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D26368-D8CB-4973-9DCD-99F104A48B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D26368-D8CB-4973-9DCD-99F104A48B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D26368-D8CB-4973-9DCD-99F104A48B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D26368-D8CB-4973-9DCD-99F104A48B54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{468A553F-24A5-43B2-9EDC-E9B92E28FD57} = {AC86059F-13DD-4C1A-B0B6-AEC54F1EFA91}
 		{A584BAA9-B74D-4290-8203-6E0EC7DAE373} = {AC86059F-13DD-4C1A-B0B6-AEC54F1EFA91}
 		{66B8F882-30BC-452D-BE48-70BBB437C437} = {A432D5AC-6D29-424A-BE66-47966C147D24}
+		{05D26368-D8CB-4973-9DCD-99F104A48B54} = {AC86059F-13DD-4C1A-B0B6-AEC54F1EFA91}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67117A75-9806-40E8-BA5A-BF111DC68DBD}
