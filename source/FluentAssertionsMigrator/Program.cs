@@ -8,7 +8,7 @@ namespace FluentAssertionsMigrator;
 
 public class Program
 {
-    private readonly static IConverter _converter;
+    private static IConverter _converter;
 
     public static void Main(string[] args)
     {
@@ -17,6 +17,8 @@ public class Program
         builder.Services.AddTransient<IConverter, NUnitMigrator.Converter>();
 
         using IHost host = builder.Build();
+
+        _converter = host.Services.GetService<IConverter>()!;
 
         Console.WriteLine("HelloWorld");
     }

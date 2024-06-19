@@ -1,4 +1,5 @@
 ﻿using Migrator;
+using NUnitMigrator.Replacements;
 using System.Text.RegularExpressions;
 
 namespace NUnitMigrator;

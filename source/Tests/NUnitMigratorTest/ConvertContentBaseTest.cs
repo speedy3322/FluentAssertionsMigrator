@@ -1,12 +1,11 @@
-﻿namespace NUnitMigrator.Test
-{
-    public abstract class ConvertContentBaseTest
-    {
-        protected static readonly string[][] _testCaseData =
-        [
-            ["actual", "expected"]
-        ];
+﻿namespace NUnitMigrator.Test;
 
-        protected readonly Converter _converter = new();
-    }
+public abstract class ConvertContentBaseTest
+{
+    protected static readonly string[][] _testCaseData =
+    [
+        ["actual", "expected"]
+    ];
+
+    protected readonly Converter _converter = new();
 }
